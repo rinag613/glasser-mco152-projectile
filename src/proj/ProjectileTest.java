@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
         public void getX()
         {
             //given
-            Projectile projectile = new Projectile(39, 77, 6);
+            Projectile projectile = new Projectile(39, 77);
 
             projectile.incTime(6);
             //when
@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
         public void getY()
         {
             //given
-            Projectile projectile2 = new Projectile(39, 77, 6);
+            Projectile projectile2 = new Projectile(39, 77);
 
             projectile2.incTime(6);
             //when
